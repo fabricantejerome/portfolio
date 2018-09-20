@@ -34,6 +34,7 @@ body {
 #about,
 #portfolio,
 #contact,
+#skills,
 .navbar-inverse {
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -70,7 +71,7 @@ h2 {
   text-align: right;
 }
 #about .intro-text {
-  margin-top: 80px;
+  margin-top: 20px;
   font-size: 1.5em;
 }
 #about .about__title {
@@ -92,6 +93,7 @@ h2 {
 }
 
 #portfolio,
+#skills,
 #contact {
   background: #feffff;
   text-align: center;
@@ -202,4 +204,21 @@ h2 {
   font-size: 20px;
 }
 
+.img-icon {
+  width: 50px;
+}
+
+.header-secondary {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#skills .list-inline {
+  margin-bottom: 50px;
+}
+
+.contact__info {
+  text-align: right;
+  margin-top: 300px;
+}
 /*# sourceMappingURL=style.css.map */
